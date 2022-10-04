@@ -46,9 +46,8 @@ export function CompleteOrder() {
   const { cleanCart } = useCart()
 
   function handleConfirmOrder(data: ConfirmOrderFormData) {
-    // console.log(data)
     navigate('/order-confirmed', {
-      state: data, // enviando dados quem vêm do fomulário pela navegação de rota
+      state: data,
     })
 
     cleanCart()

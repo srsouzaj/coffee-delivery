@@ -1,8 +1,6 @@
-import { Coffee } from '../pages/Home/components/CoffeeCard'
-
-export const coffees: Coffee[] = [
+export const coffees = [
   {
-    id: Math.floor(Date.now() * Math.random()).toString(36),
+    id: 1,
     tags: ['tradicional'],
     name: 'Expresso Tradicional',
     description: 'O tradicional café feito com água quente e grãos moídos',
@@ -10,7 +8,7 @@ export const coffees: Coffee[] = [
     price: 9.9,
   },
   {
-    id: Math.floor(Date.now() * Math.random()).toString(36),
+    id: 2,
     tags: ['tradicional'],
     name: 'Expresso Americano',
     description: 'Expresso diluído, menos intenso que o tradicional',
@@ -18,7 +16,7 @@ export const coffees: Coffee[] = [
     price: 9.9,
   },
   {
-    id: Math.floor(Date.now() * Math.random()).toString(36),
+    id: 3,
     tags: ['tradicional'],
     name: 'Expresso Cremoso',
     description: 'Café expresso tradicional com espuma cremosa',
@@ -26,7 +24,7 @@ export const coffees: Coffee[] = [
     price: 9.9,
   },
   {
-    id: Math.floor(Date.now() * Math.random()).toString(36),
+    id: 4,
     tags: ['tradicional', 'gelado'],
     name: 'Expresso Gelado',
     description: 'Bebida preparada com café expresso e cubos de gelo',
@@ -34,7 +32,7 @@ export const coffees: Coffee[] = [
     price: 9.9,
   },
   {
-    id: Math.floor(Date.now() * Math.random()).toString(36),
+    id: 5,
     tags: ['tradicional', 'com leite'],
     name: 'Café com Leite',
     description: 'Meio a meio de expresso tradicional com leite vaporizado',
@@ -42,7 +40,7 @@ export const coffees: Coffee[] = [
     price: 9.9,
   },
   {
-    id: Math.floor(Date.now() * Math.random()).toString(36),
+    id: 6,
     tags: ['tradicional', 'com leite'],
     name: 'Latte',
     description:
@@ -51,7 +49,7 @@ export const coffees: Coffee[] = [
     price: 9.9,
   },
   {
-    id: Math.floor(Date.now() * Math.random()).toString(36),
+    id: 7,
     tags: ['tradicional', 'com leite'],
     name: 'Capuccino',
     description:
@@ -60,7 +58,7 @@ export const coffees: Coffee[] = [
     price: 9.9,
   },
   {
-    id: Math.floor(Date.now() * Math.random()).toString(36),
+    id: 8,
     tags: ['tradicional', 'com leite'],
     name: 'Macchiato',
     description:
@@ -69,7 +67,7 @@ export const coffees: Coffee[] = [
     price: 9.9,
   },
   {
-    id: Math.floor(Date.now() * Math.random()).toString(36),
+    id: 9,
     tags: ['tradicional', 'com leite'],
     name: 'Mocaccino',
     description: 'Café expresso com calda de chocolate, pouco leite e espuma',
@@ -77,7 +75,7 @@ export const coffees: Coffee[] = [
     price: 9.9,
   },
   {
-    id: Math.floor(Date.now() * Math.random()).toString(36),
+    id: 10,
     tags: ['especial', 'com leite'],
     name: 'Chocolate Quente',
     description: 'Bebida feita com chocolate dissolvido no leite quente e café',
@@ -85,7 +83,7 @@ export const coffees: Coffee[] = [
     price: 9.9,
   },
   {
-    id: Math.floor(Date.now() * Math.random()).toString(36),
+    id: 11,
     tags: ['especial', 'alcoólico', 'gelado'],
     name: 'Cubano',
     description:
@@ -94,7 +92,7 @@ export const coffees: Coffee[] = [
     price: 9.9,
   },
   {
-    id: Math.floor(Date.now() * Math.random()).toString(36),
+    id: 12,
     tags: ['especial'],
     name: 'Havaiano',
     description: 'Bebida adocicada preparada com café e leite de coco',
@@ -102,7 +100,7 @@ export const coffees: Coffee[] = [
     price: 9.9,
   },
   {
-    id: Math.floor(Date.now() * Math.random()).toString(36),
+    id: 13,
     tags: ['especial'],
     name: 'Árabe',
     description: 'Bebida preparada com grãos de café árabe e especiarias',
@@ -110,7 +108,7 @@ export const coffees: Coffee[] = [
     price: 9.9,
   },
   {
-    id: Math.floor(Date.now() * Math.random()).toString(36),
+    id: 14,
     tags: ['especial', 'alcoólico'],
     name: 'Irlandês',
     description: 'Bebida a base de café, uísque irlandês, açúcar e chantilly',

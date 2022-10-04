@@ -12,7 +12,6 @@ export const QuantityInputContainer = styled.div<QuantityInputContainerProps>`
   justify-content: space-between;
   gap: 0.25rem;
   border-radius: 6px;
-  /* padding: 0.5rem; */
 
   input {
     text-align: center;

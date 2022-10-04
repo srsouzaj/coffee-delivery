@@ -44,9 +44,9 @@ export const OrderDetailsContainer = styled.div`
   &::before {
     content: '';
     position: absolute;
-    inset: -1px; // referente à grossura da borba
-    z-index: -1; // para aparecer só a borda
-    border-radius: 7px 37px 7px 37px; // border radius padrão + grossura da borda
+    inset: -1px;
+    z-index: -1;
+    border-radius: 7px 37px 7px 37px;
     background: linear-gradient(
       102.89deg,
       #dbac2c 2.61%,

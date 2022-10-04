@@ -16,7 +16,6 @@ interface LocationType {
 export function OrderConfirmed() {
   const { colors } = useTheme()
 
-  // Pegando dados do state do navigate (que vem da rota complete-order)
   const { state } = useLocation() as unknown as LocationType
 
   const navigate = useNavigate()

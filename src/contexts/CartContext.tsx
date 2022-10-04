@@ -8,7 +8,6 @@ import {
   removeCartItemAction,
 } from '../reducers/cart/actions'
 
-/* ===== TYPE ===== */
 export interface CartItem extends Coffee {
   quantity: number
 }
@@ -31,13 +30,10 @@ interface CartContextProviderProps {
   children: ReactNode
 }
 
-/* ===== LOCAL STORAGE KEY ===== */
 const COFFEE_ITEMS_STORAGE_KEY = '@coffeeDelivery:cartItems-1.0.0'
 
-/* ===== CONTEXT ===== */
 export const CartContext = createContext({} as CartContextType)
 
-/* ===== PROVIDER ===== */
 export function CartContextProvider({ children }: CartContextProviderProps) {
   const [cartState, dispatch] = useReducer(
     cartReducer,
@@ -61,7 +57,7 @@ export function CartContextProvider({ children }: CartContextProviderProps) {
     return total + cartItem.price * cartItem.quantity
   }, 0)
 
-  const deliveryPrice = 3.5 // fica a sua escolha
+  const deliveryPrice = 3.9
 
   function addCoffeeToCart(coffee: CartItem) {
     dispatch(addCoffeeToCartAction(coffee))

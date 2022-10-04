@@ -3,8 +3,6 @@ import styled from 'styled-components'
 export const OurCoffeeContainer = styled.section`
   width: 100%;
   margin-top: 2rem;
-
-  /* background: dodgerblue; */
 `
 
 export const CoffeeList = styled.div`
@@ -16,5 +14,4 @@ export const CoffeeList = styled.div`
   place-content: center;
   margin-top: 3.5rem;
 
-  /* background: tomato; */
 `
