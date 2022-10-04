@@ -7,7 +7,7 @@ import { formatMoney } from '../../../../utils/formatMoney'
 import * as S from './styles'
 
 export interface Coffee {
-  id: string
+  id: number
   tags: string[]
   name: string
   description: string
