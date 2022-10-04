@@ -16,15 +16,15 @@ export function CoffeeCartCard({ coffee }: CoffeeCartCardProps) {
   const formattedPrice = formatMoney(coffeeTotal)
 
   function handleIncrease() {
-    changeCartItemQuantity(coffee.id, 'increase')
+    changeCartItemQuantity(coffee.id.toString(), 'increase')
   }
 
   function handleDecrease() {
-    changeCartItemQuantity(coffee.id, 'decrease')
+    changeCartItemQuantity(coffee.id.toString(), 'decrease')
   }
 
   function handleRemove() {
-    removeCartItem(coffee.id)
+    removeCartItem(coffee.id.toString())
   }
 
   return (

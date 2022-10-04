@@ -7,7 +7,7 @@ import { formatMoney } from '../../../../utils/formatMoney'
 import * as S from './styles'
 
 export interface Coffee {
-  id: number
+  id: number | string
   tags: string[]
   name: string
   description: string
@@ -45,9 +45,7 @@ export function CoffeeCard({ coffee }: CoffeeProps) {
       <img src={`/coffees/${coffee.photo}`} alt="" />
       <S.TagsContainer>
         {coffee.tags.map((tag) => (
-          <S.Tag key={Math.floor(Date.now() * Math.random()).toString(36)}>
-            {tag}
-          </S.Tag>
+          <S.Tag key={Math.floor(Date.now() * Math.random())}>{tag}</S.Tag>
         ))}
       </S.TagsContainer>
 
