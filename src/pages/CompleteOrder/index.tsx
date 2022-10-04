@@ -54,8 +54,6 @@ export function CompleteOrder() {
     cleanCart()
   }
 
-  console.log(formState.errors)
-
   return (
     <FormProvider {...confirmOrderForm}>
       <S.CompleteOrderContainer
